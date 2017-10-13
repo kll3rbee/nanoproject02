@@ -2,18 +2,16 @@
 
 
 /* from the lesson notes
-* {
-   outline: 1px solid red !important;
-}
+
 .app {
     display: -webkit-flex;
     display: flex;
 }
 
 */
-
-
+   
 * {
+    outline: 1px solid red !important; /* for troubleshooting */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -40,7 +38,6 @@ article, nav {
     flex: 4;
 }
 .content > article {
-
 }
 
 
