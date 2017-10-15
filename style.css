@@ -1,19 +1,4 @@
-/* This is a CSS comment.*/
-
-
-/* from the lesson notes
-
-.app {
-    display: -webkit-flex;
-    display: flex;
-}
-
-*/
-
 * {
-    /* outline: 1px solid red !important; for troubleshooting */
-   /* margin: 1px;
-    border: red solid 1px; */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -21,6 +6,7 @@
 }
 
 body {
+    display: -webkit-flex;
     display: flex;       /* ** to make nav on the left ** */
  	flex-direction: row; /* ** to make nav on the left ** */
 }
@@ -30,7 +16,7 @@ nav {
 }
 main {
     font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif; /* default font */
-    color: #4E443C; /* default font colot */
+    color: #4E443C; /* default font color */
     background: #FBFCFC; 
 }
 article, nav {
@@ -94,13 +80,9 @@ ul {
     margin: 0;
 }
 .navigation {
-/*    position: fixed;
-    width: 330px;
-    height: 100%;  playing with sticky nav */
   	flex: 1;
 }
 .content {
- /*   margin-left: 350px; playing with sticky nav */
     flex: 5;
 }
 .credits {
