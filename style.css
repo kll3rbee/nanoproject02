@@ -21,69 +21,90 @@
 }
 
 body {
- 	display: flex;
- 	flex-direction: row;
-	margin: 2;
+    display: flex;       /* ** to make nav on the left ** */
+ 	flex-direction: row; /* ** to make nav on the left ** */
 }
-
-/*
-div {
-    outline: 1px solid red;
+nav {
+    background: #D5F5E3;
+    list-style: none;
 }
-*/
-
+main {
+    font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif; /* default font */
+    color: #4E443C; /* default font colot */
+    background: #FBFCFC; 
+}
 article, nav {
-    padding: 1em;
+    padding: 10px;
 }
-
+div {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 h1 { 
-    font-family:Georgia,serif;
-    color:#4E443C;
+    font-family: Georgia, serif;
     font-variant: small-caps; 
     text-transform: none; 
     font-size: 30px;
     font-weight: 100; 
     margin-bottom: 0;
- /*   font-family: Helvetica, sans-serif; 
-    font-size: 40px; 
-    font-weight: 100; 
-    */
 }
-
 h2 { 
-    font-family:Georgia,serif;
-    color:#4E443C;
- /*   font-variant: small-caps; */
+    font-family: Georgia, serif;
+    font-variant: small-caps; 
+    text-transform: none; 
+    font-weight: 100; 
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3 { 
+    font-family: Georgia, serif;
+    font-variant: small-caps; 
     text-transform: none; 
     font-weight: 100; 
     margin-bottom: 0;
-  /*  font-family: Helvetica, sans-serif; 
-    font-size: 30px; 
-    font-weight: 100; */
 }
-
-p,ul {
- /*   font-family: 'Calibri', sans-serif; 
-    font-size: 18px; 
-    line-height: 26px; 
-    text-indent: 30px; 
-    margin: 1;*/
-    font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+p {
     font-size: 14px;
-    margin-top: 1em;
-    color: #666;
+    margin-top: 15px;
 }
-/*
+ul {
+    list-style: circle;
+    padding: 10px;
+    margin: 5px;
+    line-height: 2;
+}
 #whatis {
-    background-image: url(images/picture.jpg);
-    background-size: contain;
+    background: #F2F3F4; 
 }
-*/
+#ketoloseweight{
+    background: #F2F3F4; 
+}
+#otherbenefits{
+    background: #F2F3F4;     
+}
+#foods2eat{
+    background: #F2F3F4;     
+}
+#sideeffects{
+    background: #F2F3F4;
+}
+.navul {
+    list-style: none;
+    margin: 0;
+}
 .navigation {
-    background: #5499C7;
+/*    position: fixed;
+    width: 330px;
+    height: 100%;  playing with sticky nav */
   	flex: 1;
 }
 .content {
-    background: #EBF5FB;
-    flex: 4;
+ /*   margin-left: 350px; playing with sticky nav */
+    flex: 5;
+}
+.credits {
+    font-size: 10px;
+    margin-top: 40px;
+
 }
