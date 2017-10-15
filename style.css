@@ -6,6 +6,8 @@
 }
 
 body {
+    font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif; /* default font */
+    color: #4E443C; /* default font colot */
     display: -webkit-flex;
     display: flex;       /* ** to make nav on the left ** */
  	flex-direction: row; /* ** to make nav on the left ** */
@@ -15,8 +17,6 @@ nav {
     list-style: none;
 }
 main {
-    font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif; /* default font */
-    color: #4E443C; /* default font color */
     background: #FBFCFC; 
 }
 article, nav {
@@ -86,7 +86,7 @@ ul {
     flex: 5;
 }
 .credits {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 40px;
 
 }
