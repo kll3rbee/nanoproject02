@@ -4,80 +4,50 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 body {
     font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif; /* default font */
+    font-size: 14px;
     color: #4E443C; /* default font colot */
     display: -webkit-flex;
     display: flex;       /* ** to make nav on the left ** */
  	flex-direction: row; /* ** to make nav on the left ** */
 }
 nav {
-    background: #D5F5E3;
-    list-style: none;
+    background: #d1f2eb;
+    padding: 1px;
 }
 main {
-    background: #FBFCFC; 
+    background: #e8f6f3;
+    padding: 5px;
 }
-article, nav {
+/*article, nav {
     padding: 10px;
-}
-div {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-h1 { 
-    font-family: Georgia, serif;
-    font-variant: small-caps; 
-    text-transform: none; 
-    font-size: 30px;
-    font-weight: 100; 
-    margin-bottom: 0;
-}
-h2 { 
-    font-family: Georgia, serif;
-    font-variant: small-caps; 
-    text-transform: none; 
-    font-weight: 100; 
-    margin-top: 30px;
-    margin-bottom: 0;
-}
-h3 { 
-    font-family: Georgia, serif;
-    font-variant: small-caps; 
-    text-transform: none; 
-    font-weight: 100; 
-    margin-bottom: 0;
-}
-p {
-    font-size: 14px;
-    margin-top: 15px;
-}
+}*/
 ul {
     list-style: circle;
     padding: 10px;
     margin: 5px;
     line-height: 2;
 }
-#whatis {
-    background: #F2F3F4; 
+.divstyle1 {
+  background: #abebc6;
+  border-radius: 6px;
+  margin: 1px;
 }
-#ketoloseweight{
-    background: #F2F3F4; 
+.divstyle2 {
+  background: #d4efdf;
+  padding: 1px;
 }
-#otherbenefits{
-    background: #F2F3F4;     
-}
-#foods2eat{
-    background: #F2F3F4;     
-}
-#sideeffects{
-    background: #F2F3F4;
-}
+.header {
+  font-family: Georgia, serif;
+  font-variant: small-caps;
+  text-transform: none;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  }
 .navul {
     list-style: none;
-    margin: 0;
 }
 .navigation {
   	flex: 1;
